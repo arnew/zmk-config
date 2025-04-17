@@ -65,6 +65,11 @@
 		startup-delay-us = <1000>;
 		status="okay";
 	};
+
+	soft_off_wakers {
+        compatible = "zmk,soft-off-wakeup-sources";
+        wakeup-sources = <&kscan0>;
+    };
 };
 
 &pro_micro {

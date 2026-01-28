@@ -1,0 +1,6 @@
+board:
+  name: arnew_uncle2040
+  full_name: ArneW Uncle 2040
+  vendor: arnew
+  socs:
+  - name: rp2040

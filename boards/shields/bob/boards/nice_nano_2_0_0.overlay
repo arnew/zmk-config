@@ -98,7 +98,7 @@
     #address-cells = <1>;
     #size-cells = <0>;
     mcp: mcp23017@20 {
-        compatible = "microchip,mcp230xx";
+        compatible = "microchip,mcp23017";
         status = "okay";
         gpio-controller;
         reg = <0x20>;

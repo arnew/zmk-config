@@ -26,7 +26,7 @@ include:
     shield: bob
   - board: particle_argon
     shield: bob
-  - board: nice_nano_v2
+  - board: nice_nano@2
     shield: bob
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y

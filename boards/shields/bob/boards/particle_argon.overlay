@@ -11,7 +11,6 @@
 /delete-node/ &boot_partition;
 /delete-node/ &slot0_partition;
 /delete-node/ &slot1_partition;
-/delete-node/ &scratch_partition;
 
 
 adafriut_flash: &flash0 {
@@ -164,7 +163,7 @@ adafriut_flash: &flash0 {
 	// 	int-gpios = <&mesh_header 9 0>;
 	// };
 	    mcp: mcp23017@20 {
-        compatible = "microchip,mcp230xx";
+        compatible = "microchip,mcp23017";
         status = "okay";
         gpio-controller;
         reg = <0x20>;
